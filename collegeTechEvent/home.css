@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
 #title{
     color: brown;
     font-size: 80px;
@@ -13,6 +20,5 @@
     width: 500px;
     border-style: dotted;
     border-width: 5px;
-    display: flex;
-    flex-wrap: center;
+    
 }
